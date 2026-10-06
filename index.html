@@ -4,100 +4,45 @@
 <meta charset="UTF-8">
 <title>حل ملف الفيزياء كاملاً</title>
 <style>
-  body {
-    font-family: 'Arial', 'Tahoma', sans-serif;
-    background: #e8e8e8;
-    margin: 0;
-    padding: 20px;
-    line-height: 1.8;
-  }
-  .page {
-    background: #fff;
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 40px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.15);
-    border-radius: 6px;
-  }
-  .page-number {
-    text-align: left;
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  h1, h2, h3 {
-    color: #1a1a1a;
-    border-bottom: 2px solid #333;
-    padding-bottom: 6px;
-  }
+  body { font-family: 'Arial', 'Tahoma', sans-serif; background: #e8e8e8; margin: 0; padding: 20px; line-height: 1.8; }
+  .page { background: #fff; max-width: 900px; margin: 20px auto; padding: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.15); border-radius: 6px; }
+  .page-number { text-align: left; color: #666; font-size: 14px; margin-bottom: 10px; }
+  h1, h2, h3 { color: #1a1a1a; border-bottom: 2px solid #333; padding-bottom: 6px; }
   h1 { text-align: center; font-size: 28px; }
   h2 { font-size: 22px; margin-top: 30px; }
   h3 { font-size: 18px; border-bottom: 1px solid #999; }
-  mark {
-    background-color: yellow;
-    font-weight: bold;
-    padding: 1px 4px;
-    border-radius: 3px;
-  }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 15px 0;
-    background: #fff;
-  }
-  th, td {
-    border: 1px solid #444;
-    padding: 10px;
-    text-align: right;
-    vertical-align: top;
-  }
-  th {
-    background: #f0f0f0;
-    font-weight: bold;
-  }
-  .question {
-    margin: 12px 0;
-    padding: 8px 12px;
-    background: #fafafa;
-    border-right: 4px solid #3498db;
-    border-radius: 4px;
-  }
-  .tf-list li, .fill-list li {
-    margin-bottom: 8px;
-  }
-  .answer-box {
-    background: #e8f5e9;
-    border-right: 5px solid #4caf50;
-    padding: 12px 16px;
-    margin: 15px 0;
-    border-radius: 4px;
-  }
-  .formula {
-    background: #f4f4f4;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-family: 'Courier New', monospace;
-    direction: ltr;
-    text-align: left;
-    margin: 10px 0;
-    display: inline-block;
-  }
+  mark { background-color: yellow; font-weight: bold; padding: 1px 4px; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 15px 0; background: #fff; }
+  th, td { border: 1px solid #444; padding: 10px; text-align: right; vertical-align: top; }
+  th { background: #f0f0f0; font-weight: bold; }
+  .question { margin: 12px 0; padding: 8px 12px; background: #fafafa; border-right: 4px solid #3498db; border-radius: 4px; }
+  .tf-list li, .fill-list li { margin-bottom: 8px; }
+  .answer-box { background: #e8f5e9; border-right: 5px solid #4caf50; padding: 12px 16px; margin: 15px 0; border-radius: 4px; }
+  .formula { background: #f4f4f4; padding: 10px 15px; border-radius: 5px; font-family: 'Courier New', monospace; direction: ltr; text-align: left; margin: 10px 0; display: inline-block; }
+  .cover { text-align: center; padding: 60px 20px; }
+  .cover h1 { border: none; font-size: 52px; margin-bottom: 40px; }
+  .cover .subtitle { font-size: 32px; border: 2px solid #333; display: inline-block; padding: 20px 60px; border-radius: 15px; margin: 30px 0; }
+  .info-box { border: 2px solid #333; border-radius: 15px; padding: 30px; margin-top: 60px; font-size: 20px; text-align: right; max-width: 500px; margin-left: auto; margin-right: auto; }
 </style>
 </head>
 <body>
 
-<div class="page">
-  <div class="page-number">1</div>
+<!-- ============ الصفحة 1: الغلاف ============ -->
+<div class="page cover">
   <h1>فيزياء ٢</h1>
-  <h1>  </h1>
-  <p style="text-align:center; font-size:18px;">
+  <div class="subtitle">ملف إنجاز الطالب</div>
+  <div class="info-box">
     اسم الطالب/ ............................................................<br><br>
     الصف / ............................................................
-  </p>
+  </div>
 </div>
 
+<!-- ============ الصفحة 2 ============ -->
 <div class="page">
-  <div class="page-number">10</div>
+  <div class="page-number">١</div>
+  <h1>ورقة عمل رقم (١)</h1>
+  <h1>الجـــاذبيـــة</h1>
+  <p style="text-align:center;">اسم الطالب / ............................................... &nbsp;&nbsp;&nbsp;&nbsp; الصف / .................</p>
 
   <h2>السؤال الأول: أكتب المصطلح العلمي المناسب</h2>
   <table>
@@ -120,11 +65,11 @@
   <div class="question">1. ما وحدة قياس ثابت الجذب الكوني G؟<br>
     أ) N/kg &nbsp;&nbsp; ب) m/s² &nbsp;&nbsp; ج) <mark>N.m²/kg²</mark> &nbsp;&nbsp; د) kg.m/s</div>
 
-  <div class="question">2. الزمن الدوري للمذنب هال-بو هو:<br>
+  <div class="question">2. الزمن الدوري للمذنب هال-بوب هو:<br>
     أ) 76 سنة &nbsp;&nbsp; ب) <mark>2400 سنة</mark> &nbsp;&nbsp; ج) 365 يوماً &nbsp;&nbsp; د) 100 سنة</div>
 
   <div class="question">3. إذا بدأت الأرض في الانكماش مع بقاء كتلتها ثابتة، فإن تسارع الجاذبية على سطحها:<br>
-    أ) <mark>يزيد</mark> &nbsp;&nbsp; ب) يقل &nbsp;&nbsp; ج) يبقى ثابتاً &nbsp;&nbsp; د) ينعدم</div>
+    أ) <mark>يزيد</mark> &nbsp;&nbsp; ب) يبقى ثابتاً &nbsp;&nbsp; ج) يقل &nbsp;&nbsp; د) ينعدم</div>
 
   <div class="question">4. إذا تضاعفت كتلة أحد الجسمين في قانون الجذب الكوني، فإن القوة:<br>
     أ) تبقى كما هي &nbsp;&nbsp; ب) تقل للنصف &nbsp;&nbsp; ج) <mark>تتضاعف</mark> &nbsp;&nbsp; د) تنعدم</div>
@@ -136,8 +81,9 @@
     أ) كتلته فقط &nbsp;&nbsp; ب) <mark>بعده عن مركز الأرض</mark> &nbsp;&nbsp; ج) سرعة دوران الأرض &nbsp;&nbsp; د) شكله فقط</div>
 </div>
 
+<!-- ============ الصفحة 3 ============ -->
 <div class="page">
-  <div class="page-number">7</div>
+  <div class="page-number">٧</div>
 
   <div class="question">7. ما الذي يحدث للقذيفة إذا أطلقت بسرعة أقل من السرعة المدارية؟<br>
     أ) تبقى معلقة في الهواء &nbsp;&nbsp; ب) <mark>تسقط على الأرض</mark> &nbsp;&nbsp; ج) تخرج من الغلاف &nbsp;&nbsp; د) تدور حول الأرض</div>
@@ -164,7 +110,7 @@
     أ) حساب كتلة الأرض &nbsp;&nbsp; ب) حساب قوة الجاذبية بين جسمين &nbsp;&nbsp; ج) <mark>جميع ما سبق</mark> &nbsp;&nbsp; د) حساب كتلة الشمس</div>
 
   <div class="question">15. أي قانون من قوانين كبلر يربط بين زمن الدورة ومقدار نصف القطر؟<br>
-    أ) الأول &nbsp;&nbsp; ب) الثاني &nbsp;&nbsp; ج) <mark>الثالث</mark> &nbsp;&nbsp; د) قانون نيوتن الثاني</div>
+    أ) الأول &nbsp;&nbsp; ب) الثاني &nbsp;&nbsp; ج) <mark>الثالث</mark></div>
 
   <div class="question">16. ما العامل الذي لا يؤثر في قوة الجذب الكوني بين جسمين؟<br>
     أ) كتل الجسمين &nbsp;&nbsp; ب) المسافة بينهما &nbsp;&nbsp; ج) <mark>شكلهما</mark> &nbsp;&nbsp; د) ثابت الجذب الكوني</div>
@@ -194,8 +140,9 @@
     <mark>رائد فضاء داخل محطة فضائية في مدار حول الأرض، أو جسم في حالة سقوط حر.</mark></div>
 </div>
 
+<!-- ============ الصفحة 4 ============ -->
 <div class="page">
-  <div class="page-number">42</div>
+  <div class="page-number">٤٢</div>
 
   <h2>السؤال الثالث: ضع علامة (√) أمام العبارة الصحيحة وعلامة (X) أمام العبارة الخاطئة</h2>
   <ol class="tf-list">
@@ -237,8 +184,9 @@
   </ol>
 </div>
 
+<!-- ============ الصفحة 5 ============ -->
 <div class="page">
-  <div class="page-number">14</div>
+  <div class="page-number">١٤</div>
 
   <ol class="fill-list" start="14">
     <li>في حالة انعدام الوزن، يشعر الجسم وكأنه <strong>يطفو</strong>.</li>
@@ -249,8 +197,8 @@
   </ol>
 
   <h2>السؤال الخامس:</h2>
-  <p>ما قوة الجاذبية بين جسمين كتلة كل منهما 1.5kg والمسافة بين مركزيهما 35 cm؟</p>
-  <div class="formula">F = G (m_p m_s) / r²</div>
+  <p>ما قوة الجاذبية بين جسمين كتلة كل منهما 1.5 kg والمسافة بين مركزيهما 35 cm؟</p>
+  <div class="formula">F = G (m₁ m₂) / r²</div>
   <div class="formula">F = 6.67 × 10⁻¹¹ × (1.5 × 1.5) / (0.35)²</div>
   <div class="formula">F = 6.67 × 10⁻¹¹ × 2.25 / 0.1225</div>
   <div class="formula">F ≈ 1.23 × 10⁻⁹ N</div>
@@ -271,8 +219,9 @@
   <div class="answer-box"><strong>الإجابة:</strong> شدة مجال الجاذبية على سطح القمر تساوي تقريباً <strong>1.53 m/s²</strong>.</div>
 </div>
 
+<!-- ============ الصفحة 6 ============ -->
 <div class="page">
-  <div class="page-number">10</div>
+  <div class="page-number">١٠</div>
   <h1>ورقة عمل رقم (٢)</h1>
   <h1>الـــراديان</h1>
   <p style="text-align:center;">اسم الطالب / ............................................... &nbsp;&nbsp;&nbsp;&nbsp; الصف / .................</p>
@@ -303,23 +252,24 @@
   <h2>السؤال الثاني: اختر الإجابة الصحيحة وضع حولها دائرة</h2>
 
   <div class="question">1. لكي يكون الجسم في حالة اتزان دوراني، يجب أن:<br>
-    أ) تكون القوى المؤثرة متساوية &nbsp;&nbsp; ب) تكون السرعة الزاوية صفراً &nbsp;&nbsp; ج) <mark>تكون محصلة العزوم صفراً</mark> &nbsp;&nbsp; د) نقطة التعلق</div>
+    أ) تكون القوى المؤثرة متساوية &nbsp;&nbsp; ب) تكون السرعة الزاوية صفراً &nbsp;&nbsp; ج) <mark>تكون محصلة العزوم صفراً</mark> &nbsp;&nbsp; د) مركز كتلته فوق قاعدته</div>
 
   <div class="question">2. الإزاحة الزاوية تقاس بوحدة:<br>
     أ) متر &nbsp;&nbsp; ب) نيوتن &nbsp;&nbsp; ج) <mark>راديان</mark> &nbsp;&nbsp; د) ثانية</div>
 
   <div class="question">3. إذا دارت الأرض دورة كاملة حول محورها، فإن الإزاحة الزاوية تساوي:<br>
-    أ) 180° &nbsp;&nbsp; ب) <mark>360°</mark> &nbsp;&nbsp; ج) <mark>2π rad</mark> &nbsp;&nbsp; د) 1 rad</div>
+    أ) 1 rad &nbsp;&nbsp; ب) <mark>2π rad</mark> &nbsp;&nbsp; ج) <mark>360°</mark> &nbsp;&nbsp; د) 180°</div>
 
   <div class="question">4. السرعة الزاوية المتجهة تساوي:<br>
     أ) القوة المؤثرة × الزمن &nbsp;&nbsp; ب) <mark>الإزاحة الزاوية ÷ الزمن</mark> &nbsp;&nbsp; ج) نصف القطر × الزمن &nbsp;&nbsp; د) العزم ÷ الكتلة</div>
 
   <div class="question">5. وحدة قياس التسارع الزاوي هي:<br>
-    أ) m/s &nbsp;&nbsp; ب) rad/s &nbsp;&nbsp; ج) <mark>rad/s²</mark> &nbsp;&nbsp; د) N.m</div>
+    أ) N.m &nbsp;&nbsp; ب) rad/s &nbsp;&nbsp; ج) <mark>rad/s²</mark> &nbsp;&nbsp; د) m/s</div>
 </div>
 
+<!-- ============ الصفحة 7 ============ -->
 <div class="page">
-  <div class="page-number">6</div>
+  <div class="page-number">٦</div>
 
   <div class="question">6. العزم يساوي حاصل ضرب:<br>
     أ) القوة × الزمن &nbsp;&nbsp; ب) <mark>القوة × ذراع القوة</mark> &nbsp;&nbsp; ج) الكتلة × التسارع &nbsp;&nbsp; د) السرعة × نصف القطر</div>
@@ -331,8 +281,8 @@
     أ) تقل &nbsp;&nbsp; ب) تزيد &nbsp;&nbsp; ج) تكون موجبة &nbsp;&nbsp; د) <mark>تكون سالبة</mark></div>
 
   <div class="question">9. مضى من الزمن الآن 10 min على ساعة الحائط، ما مقدار الإزاحة الزاوية لعقرب الثواني؟<br>
-    أ) 200π rad &nbsp;&nbsp; ب) 2π rad &nbsp;&nbsp; ج) 5π rad &nbsp;&nbsp; د) 10π rad<br>
-    <mark>الإجابة الصحيحة: 20π rad</mark></div>
+    أ) <mark>200π rad</mark> &nbsp;&nbsp; ب) 2π rad &nbsp;&nbsp; ج) 5π rad &nbsp;&nbsp; د) 10π rad<br>
+    <small>(الإجابة الصحيحة رياضياً 20π rad، والخيار المكتوب خطأ طباعي)</small></div>
 
   <div class="question">10. قوة الطرد المركزي تكون:<br>
     أ) حقيقية &nbsp;&nbsp; ب) <mark>وهمية</mark> &nbsp;&nbsp; ج) ناتجة عن الاحتكاك &nbsp;&nbsp; د) ناتجة عن الجاذبية</div>
@@ -344,13 +294,13 @@
     أ) مع عقارب الساعة &nbsp;&nbsp; ب) <mark>عكس عقارب الساعة</mark> &nbsp;&nbsp; ج) رأسي &nbsp;&nbsp; د) غير محدد</div>
 
   <div class="question">13. قوة كوريوليس تؤدي إلى انحراف الأجسام المتحركة نحو:<br>
-    أ) الشرق فقط &nbsp;&nbsp; ب) الغرب فقط &nbsp;&nbsp; ج) <mark>اليمين أو اليسار</mark> &nbsp;&nbsp; د) الأعلى</div>
+    أ) الشرق فقط &nbsp;&nbsp; ب) الغرب فقط &nbsp;&nbsp; ج) <mark>اليمين أو اليسار</mark></div>
 
   <div class="question">14. إذا زادت السرعة الزاوية لجسم، فإن التسارع الزاوي يكون:<br>
     أ) صفر &nbsp;&nbsp; ب) سالب &nbsp;&nbsp; ج) <mark>موجب</mark> &nbsp;&nbsp; د) غير معروف</div>
 
   <div class="question">15. قوة كوريوليس تؤثر على:<br>
-    أ) الأجسام الساكنة &nbsp;&nbsp; ب) الأجسام المتحركة في خط مستقيم &nbsp;&nbsp; ج) <mark>الأجسام المتحركة</mark> &nbsp;&nbsp; د) الأجسام في الفراغ</div>
+    أ) الأجسام الساكنة &nbsp;&nbsp; ب) الأجسام المتحركة في خط مستقيم &nbsp;&nbsp; ج) <mark>الأجسام المتحركة على سطح دوار</mark></div>
 
   <h2>السؤال الثالث: ضع علامة (√) أمام العبارة الصحيحة وعلامة (X) أمام العبارة الخاطئة</h2>
   <ol class="tf-list">
@@ -371,8 +321,9 @@
   </ol>
 </div>
 
+<!-- ============ الصفحة 8 ============ -->
 <div class="page">
-  <div class="page-number">15</div>
+  <div class="page-number">١٥</div>
 
   <h2>السؤال الرابع: أكمل الفراغات بالمصطلح العلمي المناسب</h2>
   <ol class="fill-list">
@@ -390,9 +341,21 @@
 
   <h2>السؤال الخامس:</h2>
   <p>يدور إطار بحيث تتحرك نقطة عند حافته الخارجية مسافة 1.5 m. وإذا كان نصف قطر الإطار 2.5 m فما مقدار الزاوية (بوحدات radians) التي دارها الإطار؟</p>
-  <div class="formula">s = r θ &nbsp; ⇒ &nbsp; θ = s / r</div>
+  <div class="formula">d = r θ &nbsp; ⇒ &nbsp; θ = d / r</div>
   <div class="formula">θ = 1.5 / 2.5 = 0.6 rad</div>
   <div class="answer-box"><strong>الإجابة:</strong> مقدار الزاوية التي دارها الإطار = <strong>0.6 راديان</strong>.</div>
+
+  <h2>السؤال السادس:</h2>
+  <p>إذا كان التسارع الخطي لعربة نقل 1.85 m/s²، والتسارع الزاوي لإطاراتها 5.23 rad/s². فما نصف قطر الإطار الواحد للعربة؟</p>
+  <div class="formula">a = r α &nbsp; ⇒ &nbsp; r = a / α</div>
+  <div class="formula">r = 1.85 / 5.23 ≈ 0.354 m</div>
+  <div class="answer-box"><strong>الإجابة:</strong> نصف قطر الإطار ≈ <strong>0.354 متر</strong> (أي حوالي 35.4 سم).</div>
+
+  <h2>السؤال السابع:</h2>
+  <p>إذا تطلب تدوير جسم عزمًا مقداره 55 N.m، في حين كانت أكبر قوة يمكن التأثير بها 135 N، فما طول ذراع القوة الذي يجب استخدامه؟</p>
+  <div class="formula">τ = F r sinθ &nbsp; (θ = 90° ⇒ sinθ = 1)</div>
+  <div class="formula">r = τ / F = 55 / 135 ≈ 0.407 m</div>
+  <div class="answer-box"><strong>الإجابة:</strong> طول ذراع القوة ≈ <strong>0.407 متر</strong> (أي حوالي 40.7 سم).</div>
 </div>
 
 </body>
